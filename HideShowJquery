@@ -1,0 +1,7 @@
+Com essa função podemos fazer um item ocultado em display:none no CSS aparecer clicando em um botão ou checkbox
+
+$(function () {
+  $('.ClasseBotaoCheckbox').on('click', function () {
+    $('.ItemDivEscondida').toggle(this.checked);
+  });
+});
